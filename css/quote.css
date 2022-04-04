@@ -1,0 +1,17 @@
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 200px 100px 200px;
+}
+
+.quote p:first-child {
+  color: lime;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote p:nth-child(2) {
+  display: flex;
+  font-weight: bold;
+  flex-flow: row-reverse;
+}
